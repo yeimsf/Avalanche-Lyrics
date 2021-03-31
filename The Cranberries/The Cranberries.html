@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Cranberries</title>
+	 <link rel="shortcut icon" type="image-x/icon" href="tab.jpg">
+	<meta charset="utf-8">
+	<meta name="description" content="A sample website for the music you need">
+  	<script src="https://kit.fontawesome.com/f22e872604.js"></script>
+	<link rel="stylesheet" type="text/css" href="The Cranberries.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="finale.js"></script>
+	<script type="text/javascript" src="searching.js"></script>
+</head>
+<body id="main">
+	<div class="main">
+		<div class="heading">
+			<table>
+			<tr>
+				<th id="lef">
+					<div class="left">
+						<div id="mySidebar" class="sidebar">
+	  						<a href="javascript:void(0)" class="closebtn" onclick="practices:closeNav()">&times;</a>
+	  						<a href="../Home/hometesting.html"><i class="fa fa-fw fa-home">Home</i></a>
+ 	  						<a href="../Log in/login.html"><i class="fa fa-fw fa-user">Login</i></a>
+ 	  						<a href="../registration/registration.html"><i class="fa fa-user-plus">Register</i></a>     			 
+	  						<a href="../About Us/About Us.html"><i class="fa fa-id-card">About Us</i></a>
+ 	  						<a href="../Contact/Contact Us.html"><i class="fa fa-fw fa-envelope">Contact</i></a>
+						</div>
+						<div id="main">
+      						<button class="openbtn" onclick="practices:openNav()">&#9776;</button> 
+						</div>
+					</div>
+				</th>
+				<th id="cen">
+				<div class="center">
+					<h1>Avalanche</h1>
+				</div>	
+				</th>
+				<th id="search">
+					<div class="div1">
+    					<input type="text" class="i1" id="searchs" placeholder="Enter Song...">
+   						<a><button class="s1" onclick="searching:search()">&#9836</button></a>
+  					</div>
+				</th>
+			</tr>
+			</table>
+		</div>
+		<div>
+			<div><img src="TheCranberriesicon.jpg" id="TheCranberries">
+			<script>
+				var images = document.getElementsByTagName("img");
+				for(var i = 0; i < images.length; i++) 
+				{
+    				var image = images[i]; 
+    				image.onclick = function(event) 
+    				{
+         				window.location.href = "https://youtu.be/6Ejga4kJUts";
+    				};
+				}
+				</script>
+			</div> 
+			<div>
+				<h2 id="titles">The Cranberries</h2>
+				<p id="sname">Zombie</p>
+			</div>
+    		<div class="audio">
+        		<audio controls>
+            	<source src="TheCranberries.mp3" type="audio/mpeg">
+        		</audio>                  
+    		</div>
+    		<input type="button" value="Show Lyrics" id="btn" onclick="code:displaylyrics()">
+		</div>
+		</div>
+		</div>
+		<div class="TheBody" id="content">
+			<p id="textt">
+				<br>
+				[Verse 1]
+				<br>
+				Another head hangs lowly
+				<br>
+				Child is slowly taken
+				<br>
+				And the violence caused such silence
+				<br>
+				Who are we mistaken?
+				<br>
+				<br>
+				[Pre-Chorus]
+				<br>
+				But you see, it's not me
+				<br>
+				It's not my family
+				<br>
+				In your head, in your head, they are fightin'
+				<br>
+				With their tanks, and their bombs
+				<br>
+				And their bombs, and their guns
+				<br>
+				In your head, in your head, they are cryin'
+				<br>
+				<br>
+				[Chorus]
+				<br>
+				In your head, in your head
+				<br>
+				Zombie, zombie, zombie-ie-ie
+				<br>
+				What's in your head, in your head?
+				<br>
+				Zombie, zombie, zombie-ie-ie-ie, oh
+				<br>
+				<br>
+				[Post-Chorus]
+				<br>
+				Du, du, du, du
+				<br>
+				Du, du, du, du
+				<br>
+				Du, du, du, du
+				<br>
+				Du, du, du, du
+				<br>
+				<br>
+				[Verse 2]
+				<br>
+				Another mother's breakin'
+				<br>
+				Heart is takin' over
+				<br>
+				When the violence causes silence
+				<br>
+				We must be mistaken
+				<br>
+				<br>
+				[Pre-Chorus]
+				<br>
+				It's the same old theme
+				<br>
+				Since nineteen-sixteen
+				<br>
+				In your head, in your head, they're still fightin'
+				<br>
+				With their tanks, and their bombs
+				<br>
+				And their bombs, and their guns
+				<br>
+				In your head, in your head, they are dyin'
+				<br>
+				<br>
+				[Chorus]
+				<br>
+				In your head, in your head
+				<br>
+				Zombie, zombie, zombie-ie-ie
+				<br>
+				What's in your head, in your head?
+				<br>
+				Zombie, zombie, zombie-ie-ie-ie, oh-oh-oh-oh-oh-oh-oh, eh-eh-oh, ra-ra
+				<br>
+				<br>
+				[Instrumental Outro]		
+		</div>
+	</div>
+	<script type="text/javascript" src="code.js"></script>
+</body>
+</html>

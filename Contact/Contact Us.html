@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Us</title>
+  <link rel="stylesheet" type="text/css" href="us.css">
+  <link rel="shortcut icon" type="image-x/icon" href="tab.jpg">
+  <meta charset="utf-8">
+  <meta name="description" content="A sample website for the music you need">
+  <script src="https://kit.fontawesome.com/f22e872604.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/font-awesome.min.css">
+</head>
+<body id="main">
+  <div class="main">
+  <div class="heading">
+      <table>
+      <tr>
+        <th id="lef">
+          <div class="left">
+            <div id="mySidebar" class="sidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="practices:closeNav()">&times;</a>
+                <a href="../Home/hometesting.html"><i class="fa fa-fw fa-home">Home</i></a>
+                <a href="../Log in/login.html"><i class="fa fa-fw fa-user">Login</i></a>
+                <a href="../registration/registration.html"><i class="fa fa-user-plus">Register</i></a>            
+                <a href="../About Us/About Us.html"><i class="fa fa-id-card">About Us</i></a>
+                <a href="../Contact/Contact Us.html"><i class="fa fa-fw fa-envelope">Contact</i></a>
+            </div>
+            <div id="main">
+                  <button class="openbtn" onclick="practices:openNav()">&#9776;</button> 
+            </div>
+          </div>
+        </th>
+        <th id="cen">
+        <div class="center">
+          <h1>Avalanche</h1>
+        </div>  
+        </th>
+      </tr>
+      </table>
+    </div>
+    <div class="c-title">
+      <h1>Hello</h1>
+      <h2>We Appreciate Your Support Through The Years!</h2>
+    </div>
+    <div class="c-form">
+  	    <form id="forms" action="../Home/hometesting.html" onsubmit="Sent()">
+  		    <input type="text" name="name" class="form-c" placeholder="Your Username" id="user" required><br>
+  		    <input type="email" name="email" class="form-c" placeholder="Your Email" id="email" required><br>
+          <textarea name="message" class="form-c" placeholder="Message" rows="4" id="text" required></textarea> 
+          <br>
+          <input type="submit" value="SEND MESSAGE" class="form-c submit"> 
+  	    </form>
+    </div>
+    </div>
+    <script type="text/javascript" src="reg.js"></script>
+    <script type="text/javascript" src="practices.js"></script>
+</body>
+</html>

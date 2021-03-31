@@ -1,0 +1,396 @@
+@font-face
+{
+	font-family: olde;
+	src:url(GRACETIANS.otf);
+}
+input[type="E-Mail"] , input[type="password"]
+{
+	margin-bottom: 10px;
+	width: 100%;
+	background-blend-mode: inherit;
+	opacity: 0.25;
+	border-radius: 2px;
+	border: 1px;
+	height: 30px;
+}
+#users
+{
+	margin-bottom: 10px;
+	width: 100%;
+	background-blend-mode: inherit;
+	opacity: 0.25;
+	border-radius: 2px;
+	border: 1px;
+	height: 30px;	
+}
+#searchs
+{
+	padding-right: none;
+}
+#btn
+{
+    position: relative;
+    background-color: #090909;
+    border-radius: 30px;
+    color: #AAAAAA;
+    block-size: 30px;
+    margin-top : 10px;
+    margin-left: 620px;
+    opacity: 0.8;
+    border: none;
+}
+#billie:hover
+{
+  transition: .3s ease-in-out;
+  opacity:.8;
+}
+.audio
+{
+  display:table;
+  margin : 0px  512px;
+}
+#billie
+{
+    position : relative;
+    width : 152px;
+    height: 192px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-left: 580px; 
+    opacity: 0.6;
+}
+label
+{	
+	padding-bottom: 20px; 
+	font-size: 18px;
+	color: #FF0000;
+	padding-right: 1px;
+}
+legend
+{
+	padding-bottom: 30px;
+	text-align: center;
+	font-size: 25px;
+	color: #FF0000;
+}
+#lef
+{
+	padding-right: 1px;
+	margin-right: 20px;
+}
+#cen
+{
+	padding-right: 200px;
+	padding-left: 420px;
+}
+#righ
+{
+	padding-left: 100px;
+}
+#go
+{
+	padding-right: 5px;
+}
+#blen
+{
+	padding-right: 25px;
+}
+#blenp
+{
+	padding-right: 5px;
+}
+#search
+{
+	padding-left: 150px;
+	padding-right: 150px;
+}
+h1
+{
+	font-family: olde;
+	margin-bottom: 25px;
+	display: inline;
+	text-align: center;
+	font-size:50px;
+	color: #CCCCCC;
+	left: 40%;
+}
+body
+{
+	background-image: url(billie.jpg);
+	background-attachment: fixed;
+	background-size: contain;
+}
+.dont
+{
+	border: 0;
+}
+.reg
+{
+	margin-top: 200px;
+}
+.left
+{
+	display: inline-table;
+	float: left;
+}
+ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-blend-mode:inherit;
+}
+.stay
+{
+	opacity: 0.75;
+	background-color: #060606;
+	border-color: #040404;
+	border: 2px thin;
+	border-radius: 5px;
+	margin-bottom: 220px;
+}
+.right
+{
+	display: inline-table;
+	float: right;
+	text-align: left;
+	color:#FFFFFF;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+.active {
+  background-color: #D20000;
+}
+.heading
+{
+
+	text-align: center;
+	font-family: serif;
+	backface-visibility: visible;
+}
+form
+{
+	margin: 200px;
+}
+.sidebar 
+{
+	opacity: 0.5;
+	height: 100%; /* 100% Full-height */
+	width: 0; /* 0 width - change this with JavaScript */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Stay on top */
+	top: 0;
+	left: 0;
+	background-color: #111; /* Black*/
+	overflow-x: hidden; /* Disable horizontal scroll */
+ 	padding-top: 60px; /* Place content 60px from the top */
+	transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+	margin-left: 0px; 
+}
+
+	/* The sidebar links */
+.sidebar a 
+{
+ 	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #898989;
+	opacity: 0.7;
+	display: block;
+	transition: 0.3s;
+	text-align: left;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover 
+{
+	opacity: 0.5;
+ 	color: #FFFFFF;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn 
+{
+  	opacity: 0.5;
+  	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 10px;
+}
+
+			/* The button used to open the sidebar */
+.openbtn 
+{
+	font-size: 20px;
+	cursor: pointer;
+	background-color: #111;
+	opacity: 0.5;
+	color: white;
+	padding: 10px 15px;
+	border: none;
+	margin-right: 0px;
+}
+.openbtn:hover 
+{
+	background-color: #AAAAAA;
+}
+
+			/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main 
+{
+	transition: margin-left .5s; /* If you want a transition effect */
+	padding: 20px;
+}
+			/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) 
+{
+	.sidebar {padding-top: 15px;}
+	.sidebar a {font-size: 18px;}
+}
+.div1{
+      position: absolute;
+      top: 10%;
+      left: 89%;
+      transform: translate(-50%,-50%);
+      background: #191919;
+      height: 40px;
+      border-radius: 15px;
+      padding: 10px;
+      opacity: 0.9;
+
+
+}
+#titles
+{	
+	padding-left: 550px;
+}
+#sname
+{
+	padding-left: 580px;
+}
+.s1:hover > .div1{
+	width: 100%;
+}
+.div1:hover > .i1 {
+      width: 60%;
+      padding: 0 6px;
+}
+.s1{
+      color: #AAAAAA;
+      float: right;
+      width: 40px;
+      height: 40px;
+      border-radius: 100%;
+      background: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-color: black;
+      opacity: 1;
+}
+.i1{
+      border: none;
+      background: none;
+      outline: none;
+      float: left;
+      padding: 0;
+      color: white;
+      font-size: 16px;
+      transition: 0.8s;
+      line-height: 40px;
+      width: 0px;
+      padding-right: 0px;
+}
+.TheBody , .player
+{
+	text-align: center;
+	font-weight: bold;
+	background-color:rgb(200, 200, 200);
+	position: relative;
+	padding-left: 10px;
+	padding-top: 1px;
+	width:72%;
+	height: 100%;
+	opacity: 0.9;
+	margin:20px 150px;
+	border-radius: 30px;
+	transition: .5s ease;
+}
+
+.TheBody:hover , .player:hover
+{
+  	opacity: .7;
+}
+p
+{
+	font-size: 27px;
+	font-style: italic;
+	font-family: 
+}
+h2
+{
+	font-size: 36px;
+	font-family: olde;
+}
+#billie:hover
+{
+	opacity: 2;
+}
+audio:hover, audio:focus, audio:active
+{
+-webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+-moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+-webkit-transform: scale(1.05);
+-moz-transform: scale(1.05);
+transform: scale(1.05);
+}
+audio
+{
+-webkit-transition:all 0.5s linear;
+-moz-transition:all 0.5s linear;
+-o-transition:all 0.5s linear;
+transition:all 0.5s linear;
+-moz-box-shadow: 2px 2px 4px 0px #D20000;
+-webkit-box-shadow:  2px 2px 4px 0px #D20000;
+box-shadow: 2px 2px 4px 0px #AAAAAA;
+-moz-border-radius:7px 7px 7px 7px ;
+-webkit-border-radius:7px 7px 7px 7px ;
+border-radius:7px 7px 7px 7px ;
+}
+#btn:hover, #btn:focus, #btn:active
+{
+-webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+-moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+-webkit-transform: scale(1.05);
+-moz-transform: scale(1.05);
+transform: scale(1.05);
+}
+#btn
+{
+-webkit-transition:all 0.5s linear;
+-moz-transition:all 0.5s linear;
+-o-transition:all 0.5s linear;
+transition:all 0.5s linear;
+-moz-box-shadow: 2px 2px 4px 0px #D20000;
+-webkit-box-shadow:  2px 2px 4px 0px #D20000;
+box-shadow: 2px 2px 4px 0px #AAAAAA;
+-moz-border-radius:7px 7px 7px 7px ;
+-webkit-border-radius:7px 7px 7px 7px ;
+border-radius:7px 7px 7px 7px ;
+}

@@ -1,0 +1,470 @@
+@font-face
+{
+	font-family: olde;
+	src:url(GRACETIANS.otf);
+}
+input[type="E-Mail"] , input[type="password"]
+{
+	margin-bottom: 10px;
+	width: 100%;
+	background-blend-mode: inherit;
+	opacity: 0.25;
+	border-radius: 2px;
+	border: 1px;
+	height: 30px;
+}
+#users
+{
+	margin-bottom: 10px;
+	width: 100%;
+	background-blend-mode: inherit;
+	opacity: 0.25;
+	border-radius: 2px;
+	border: 1px;
+	height: 30px;	
+}
+#searchs
+{
+	padding-right: none;
+}
+input[type="button"] ,input[type="submit"]
+{
+	border: none;
+	width: 100%;
+	height: 35px;
+	background-color: #FF0000;
+	color: #FFFFFF;
+	font-size: 14px;
+}
+input[type="button"]:hover ,input[type="submit"]:hover
+{
+	opacity: 0.7;
+}
+label
+{	
+	padding-bottom: 20px; 
+	font-size: 18px;
+	color: #FF0000;
+	padding-right: 1px;
+}
+legend
+{
+	padding-bottom: 30px;
+	text-align: center;
+	font-size: 25px;
+	color: #FF0000;
+}
+#lef
+{
+	padding-right: 1px;
+	margin-right: 20px;
+}
+#cen
+{
+	padding-right: 200px;
+	padding-left: 350px;
+}
+#righ
+{
+	padding-left: 100px;
+}
+#go
+{
+	padding-right: 5px;
+}
+#blen
+{
+	padding-right: 25px;
+}
+#blenp
+{
+	padding-right: 5px;
+}
+#search
+{
+	padding-left: 150px;
+	padding-right: 150px;
+}
+h1
+{
+	font-family: olde;
+	margin-bottom: 25px;
+	display: inline;
+	text-align: center;
+	font-size:50px;
+	color: #CCCCCC;
+	padding-left: 110px;
+}
+form
+{
+	margin: 200px;
+}
+body
+{
+	background-image: url(background.jpeg);
+	background-attachment: fixed;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.dont
+{
+	border: 0;
+}
+.left
+{
+	display: inline-table;
+	float: left;
+}
+ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-blend-mode:inherit;
+}
+.stay
+{
+	opacity: 0.75;
+	background-color: #060606;
+	border-color: #040404;
+	border: 2px thin;
+	border-radius: 5px;
+	margin-bottom: 220px;
+}
+.right
+{
+	display: inline-table;
+	float: right;
+	text-align: left;
+	color:#FFFFFF;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+.active {
+  background-color: #D20000;
+}
+.heading
+{
+
+	text-align: center;
+	font-family: serif;
+	backface-visibility: visible;
+}
+.sidebar 
+{
+	opacity: 0.5;
+	height: 100%; /* 100% Full-height */
+	width: 0; /* 0 width - change this with JavaScript */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Stay on top */
+	top: 0;
+	left: 0;
+	background-color: #111; /* Black*/
+	overflow-x: hidden; /* Disable horizontal scroll */
+ 	padding-top: 60px; /* Place content 60px from the top */
+	transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+	margin-left: 0px; 
+}
+
+	/* The sidebar links */
+.sidebar a 
+{
+ 	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #898989;
+	opacity: 0.7;
+	display: block;
+	transition: 0.3s;
+	text-align: left;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover 
+{
+	opacity: 0.5;
+ 	color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn 
+{
+  	opacity: 0.5;
+  	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 10px;
+}
+
+			/* The button used to open the sidebar */
+.openbtn 
+{
+	font-size: 20px;
+	cursor: pointer;
+	background-color: #111;
+	opacity: 0.5;
+	color: white;
+	padding: 10px 15px;
+	border: none;
+	margin-right: 0px;
+}
+.openbtn:hover 
+{
+	background-color: #A5A5A5;
+}
+
+			/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main 
+{
+	transition: margin-left .5s; /* If you want a transition effect */
+	padding: 20px;
+}
+			/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) 
+{
+	.sidebar {padding-top: 15px;}
+	.sidebar a {font-size: 18px;}
+}
+.div1{
+      position: absolute;
+      top: 10%;
+      left: 88%;
+      transform: translate(-50%,-50%);
+      background: #191919;
+      height: 40px;
+      border-radius: 15px;
+      padding: 10px;
+      opacity: 0.9;
+
+
+}
+.s1:hover > .div1{
+	width: 100%;
+}
+.div1:hover > .i1 {
+      width: 60%;
+      padding: 0 6px;
+}
+.s1{
+      color: #D20000;
+      float: right;
+      width: 40px;
+      height: 40px;
+      border-radius: 100%;
+      background: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-color: black;
+      opacity: 1;
+}
+.i1{
+      border: none;
+      background: none;
+      outline: none;
+      float: left;
+      padding: 0;
+      color: white;
+      font-size: 16px;
+      transition: 0.8s;
+      line-height: 40px;
+      width: 0px;
+      padding-right: 0px;
+}
+#form
+{
+	color: #FF0000;
+	margin-top: 100px;
+	margin-right: 500px;
+	margin-left: 500px;	
+	border: 3px solid #f1f1f1;
+	opacity: 0.75;
+}
+
+/* Full-width inputs */
+#userreg , #passwreg ,#mailreg
+{
+  	width: 100%;
+	padding: 12px 20px;
+  	margin: 8px 0;
+ 	display: inline-block;
+  	border: 1px solid #CCC;
+  	box-sizing: border-box;
+  	opacity: 0.5;
+
+}
+
+		/* Set a style for all buttons */
+#regsub 
+{
+    background-color: #FF0000;
+ 	color: white;
+ 	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+}
+			/* Add a hover effect for buttons */
+#regsub:hover 
+{
+ 	opacity: 0.8;
+}
+			/* Extra style for the cancel button (red) */
+.cancelbtn 
+{
+	width: auto;
+	padding: 10px 18px;
+	background-color: #f44336;
+}
+			/* Center the avatar image inside this container */
+.images 
+{
+	text-align: center;
+	margin: 24px 0 12px 0;
+}
+img
+{
+
+	width: 100%;
+	height: 150px;
+		
+}
+.cancelbtn
+{
+	width: 100%;
+}
+			/* Avatar image */
+		/* Add padding to containers */
+.container 
+{
+	padding-top: 0px;
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-bottom: 16px;
+	opacity: 0.75;
+}
+/*Change the style of the attributes in the nav bar*/
+li a.btnnStyle
+{
+  	display: block;
+  	color: #090909;
+  	text-align: center;
+  	padding-right: 50px;
+  	text-decoration: none;
+  	width: 100%;
+  	font-family: olde;
+}
+
+/* Change the link color on hover */
+li a.btnnStyle:hover 
+{
+  background-color: #3d3d3d;
+  border-radius: 20px;
+  color: #FFFFFF;
+  width: 100%;
+  transition: .3s ease-in-out;
+}
+/*The layer of transperancy on the fore background*/
+.skin
+{
+  	background:white;
+  	width: 65%;
+  	height:100%;
+  	margin-left: 200px;
+  	margin-right: 25px;
+  	position: absolute;
+  	opacity:.1;
+  	border-radius: 10px;
+  	display: block;
+}
+
+.skin:hover
+{
+  	transition: .3s ease-in-out;
+  	opacity:.12;
+}
+
+.content
+{
+  	background-color:rgb(255, 255, 255);
+  	position: relative;
+  	padding-left: 10px;
+  	padding-top: 100px;
+  	width:100%;
+  	height:400px;
+  	margin:20px 150px;
+  	border-radius: 30px;
+  	opacity: .6;
+  	transition: .5s ease;
+}
+
+.content:hover
+{
+  	opacity: .9;
+}
+
+.textInCenter
+{
+  	text-align:center;
+  	font-weight: 700;
+  	font-style:italic;
+  	font-size: 70px;
+  	color: #252525 ;
+}
+
+.mostPopuler 
+{
+  	background-color:rgb(255, 255, 255);
+  	position: absolute;
+  	width:43%;
+  	height: 60%;
+  	margin-top: 100px;
+  	margin-left: 365px;
+  	border-radius: 30px;
+  	opacity: .6;
+  	transition: .5s ease;
+}
+
+.songsList
+{
+  	list-style-type: none;
+  	margin-top: 20px;
+  	margin-bottom: 20px;	
+  	overflow: hidden;
+  	background-color:rgb(250, 248, 248);
+  	position: relative;
+  	border-radius: 20px;
+  	width:550px;
+  	display:block;
+ 	border: thin #3d3d3d;
+ 	text-align: center;
+}
+.songBtn
+{
+  	float: left;
+}
+.pause
+{
+  	width:20px ;
+  	height:20px;
+}
+.songName
+{
+  	font-family: olde;
+  	font-size: 15px;
+}

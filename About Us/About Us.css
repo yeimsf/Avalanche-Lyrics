@@ -1,0 +1,134 @@
+@font-face
+{
+	font-family: olde;
+	src:url(GRACETIANS.otf);
+}
+body
+{
+	display: block;
+	background-image: url(about.jpg);
+	background-attachment: fixed;
+	background-size: 100%;
+}
+.heading
+{
+
+	text-align: center;
+	font-family: serif;
+	backface-visibility: visible;
+}
+.sidebar 
+{
+	opacity: 0.5;
+	height: 100%; /* 100% Full-height */
+	width: 0; /* 0 width - change this with JavaScript */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Stay on top */
+	top: 0;
+	left: 0;
+	background-color: #111; /* Black*/
+	overflow-x: hidden; /* Disable horizontal scroll */
+ 	padding-top: 60px; /* Place content 60px from the top */
+	transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+	margin-left: 0px; 
+}
+#cen
+{
+	padding-right: 200px;
+	padding-left: 400px;
+}
+	/* The sidebar links */
+.sidebar a 
+{
+ 	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #898989;
+	opacity: 0.7;
+	display: block;
+	transition: 0.3s;
+	text-align: left;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover 
+{
+	opacity: 0.5;
+ 	color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn 
+{
+  	opacity: 0.5;
+  	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 10px;
+}
+
+			/* The button used to open the sidebar */
+.openbtn 
+{
+	font-size: 20px;
+	cursor: pointer;
+	background-color: #111;
+	opacity: 0.5;
+	color: white;
+	padding: 10px 15px;
+	border: none;
+	margin-right: 0px;
+}
+.openbtn:hover 
+{
+	background-color: #A5A5A5;
+}
+
+			/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main 
+{
+	transition: margin-left .5s; /* If you want a transition effect */
+	padding: 20px;
+}
+			/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) 
+{
+	.sidebar {padding-top: 15px;}
+	.sidebar a {font-size: 18px;}
+}
+.skin
+{
+  	background:black;
+  	width: 70%;
+  	margin-left: 200px;
+  	margin-right: 25px;
+  	position: absolute;
+  	opacity:.5;
+  	border-radius: 10px;
+  	display: block;
+}
+
+.skin:hover
+{
+  	transition: .3s ease-in-out;
+  	opacity:1;
+}
+h1
+{
+	font-family: olde;
+	margin-bottom: 25px;
+	display: inline;
+	text-align: center;
+	font-size:50px;
+	color: #CCCCCC;
+}
+p
+{
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+	text-align: center;
+	opacity: 2;
+	color: white;
+	font-size: 22px;
+
+}

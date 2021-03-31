@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+	<link rel="shortcut icon" type="image-x/icon" href="tab.jpg">
+	<meta charset="utf-8">
+	<meta name="description" content="A sample website for the music you need">
+  	<script src="https://kit.fontawesome.com/f22e872604.js"></script>
+	<link rel="stylesheet" type="text/css" href="forall.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/font-awesome.min.css">
+</head>
+<body id="main">
+	<div class="main">
+		<div class="heading">
+			<table>
+			<tr>
+				<th id="lef">
+					<div class="left">
+						<div id="mySidebar" class="sidebar">
+	  						<a href="javascript:void(0)" class="closebtn" onclick="reg:closeNav()">&times;</a>
+	  						<a href="../Home/hometesting.html"><i class="fa fa-fw fa-home">Home</i></a>
+ 	  						<a href="../Log in/login.html"><i class="fa fa-fw fa-user">Login</i></a>
+ 	  						<a href="registration.html"><i class="fa fa-user-plus">Register</i></a>     			 
+	  						<a href="../About Us/About Us.html"><i class="fa fa-id-card">About Us</i></a>
+ 	  						<a href="../Contact/Contact Us.html"><i class="fa fa-fw fa-envelope">Contact</i></a>
+						</div>
+						<div id="main">
+      						<button class="openbtn" onclick="reg:openNav()">&#9776;</button> 
+						</div>
+					</div>
+				</th>
+				<th id="cen" style="padding-left: 350px;">
+				<div class="center">
+					<h1>Avalanche</h1>
+				</div>	
+				</th>
+			</tr>
+			</table>
+		</div>
+		<div class="TheBody">
+			<form name="form" id="form" action="../Log in/login.html" onsubmit="reg:validation()">
+				<div class="reg">
+					<img src="download1.jpg">
+					<div align="center">
+						<label><b>Registration</b></label>
+					</div>
+  					<div class="container">
+    					<label for="username"><b>Username</b></label>
+    					<input type="text" id="userreg" placeholder="Enter Username" name="uname" required>
+						<label for="e-mail" id="blen"><b>E-Mail</b></label>
+						<input type="E-Mail" name="emailreg" placeholder="Your E-Mail" id="mailreg" required>
+						<label for="password"><b>Password</b></label>
+    					<input type="password" id="passwreg" placeholder="Enter Password" name="psw" required>
+    					<label for="password"><b>Confirm Password</b></label>
+    					<input type="password" id="cpasswreg" placeholder="Confirm Password" name="cpsw" required>
+    					<button type="submit" id="regsub">Submit</button>
+  					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+	<script type="text/javascript" src="reg.js"></script>
+</body>
+</html>
